@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000, #31082f), white;
+            color: #fff;
+            min-height: 100vh;
+            text-align: left;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            width: 100%;
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .profile {
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .profile h1,
+        .profile h2 {
+            margin: 5px 0;
+        }
+
+        .bio {
+            background: #361635;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgb(54, 43, 54);
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .bio h3 {
+            margin: 10px 0;
+        }
+
+        #contact {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        #contact h2 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-item img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .contact-item p {
+            margin: 0;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Abelia Putri",
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Universitas Yatsi Madani",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Jl. Aria Santika No.40A, RT.001/RW.003, Margasari",
+                    "addressLocality": "Kec. Karawaci",
+                    "addressRegion": "Banten",
+                    "postalCode": "15114",
+                    "addressCountry": "ID"
+                }
+            },
+            "memberOf": {
+                "@type": "EducationalOrganization",
+                "name": "Fakultas Teknologi dan Bisnis, Prodi Ilmu Komputer",
+                "department": "Ilmu Komputer Tigaraksa A"
+            },
+            "hasOccupation": {
+                "@type": "Student",
+                "name": "Mahasiswa",
+                "course": "Jaringan Semantik"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "(021) 55726558",
+                "email": "admin@uym.ac.id",
+                "areaServed": "Indonesia",
+                "hoursAvailable": "Mo-Fr 08:00-15:00"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="profile">
+        <img src="foto profil.png" alt="Profile Picture">
+        <h1>Abelia Putri</h1>
+        <h2>UNIVERSITAS YATSI MADANI</h2>
+    </div>
+
+    <div id="about" class="bio">
+        <p>Nim          : 23050606</p>
+        <p>Kelas        : Tigaraksa IIIA</p>
+        <p>Mata Kuliah  : Jaringan Sematik</p>
+        <p>Fakultas     : Teknologi dan Bisnis</p>
+        <p>Program Studi: Ilmu Komputer</p>
+        <p>Mahasiswa Semester 3</p>
+    </div>
+    <div id="about" class="bio">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="logo email.png" alt="Email Icon">
+                <p>Email: abeliaputri1511@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <img src="logo alamat.png" alt="Address Icon">
+                <p>Address: Perumahan Villa Balaraja</p>
+            </div>
+    <div>
+        <h2>Tentang Saya</h2>
+        <p>Saya lulusan SMA dengan jurusan IPA pada tahun 2022, saat ini saya menempuh pendidikan S1 program studi Ilmu Komputer, semester 3. Saya memiliki kemampuan yang cukup dalam akademik, saya juga memiliki semangat untuk terus belajar, dan memiliki rasa tidak pantang menyerah saat tidak bisa menyelesaikan suatu masalah. Memiliki kemampuan adaptasi yang baik dalam kerja sama tim. Saya berusaha untuk selalu disiplin, teliti dan tanggung jawab. Dengan semangat belajar dan berkembang untuk menjadi pribadi yang lebih baik, agar dapat memberikan dampak positif di bidang teknologi juga masyarakat.</p>
+    </div>
+    <div>
+        <h2>Pendidikan</h2>
+        <p>o 2023 - Sekarang</p>
+        <h3>Universitas Yatsi Madani (S1 Ilmu Komputer)</h3> 
+        <p>o 2019 - 2022</p>
+        <h3>SMAN 19 Kab.Tangerang (Ilmu Pengetahuan Alam)</h3> 
+        <p>o 2016 - 2029</p>
+        <h3>SMP Negeri 2 Balaraja </h3> 
+         </div>
+        </div>
+        <section id="Kemampuan">
+            <h2>Kemampuan</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <p>Microsoft Word</p>
+                </div>
+                <div class="contact-item">
+                    <p>Microsoft Powerpoint</p>
+                </div>
+                <div class="contact-item">
+                    <p>HTML Dasar</p>
+                </div>
+                <div class="contact-item">
+                    <p>CSS Dasar</p>
+                </div>
+                <div class="contact-item">
+                    <p>PHP Dasar</p>
+                </div>
+                    <h2>Informasi Kampus</h2>
+                    <div class="informasi kampus">
+                            <div class="contact-item">
+                                <img src="logo telepon.png" alt="Email Icon">
+                                <p>Telepon : (021)55726558</p>
+                            </div>
+                            <div class="contact-item">
+                                <img src="logo email.png" alt="Email Icon">
+                                <p>Email: ftb@uym.ac.id</p>
+                            </div>
+                            <div class="contact-item">
+                                <img src="logo alamat.png" alt="Address Icon">
+                                <p>Address: Jl. Aria Santika No.40A, RT.005/RW.011, Margasari, Kec. Karawaci, Kota Tangerang, Banten 15114 </p>
+                            </div>
+                            <div class="contact-item">
+                                <img src="logo jam.png" alt="Email Icon">
+                                <p>Jam Operasional :  08.00 s/d 17.00 WIB - Senin s/d Jumat & 08.00 s/d 12.00 WIB - Sabtu</p>
+                            </div>
+                </div>
+    </section>
+</body>
+</html>
